@@ -1,0 +1,30 @@
+/*Lucas Rosa Barbosa - CPD: 33992*/
+
+h1{
+    text-align: center
+}
+
+p{
+    border-left: 20em green solid;
+    border-right: 20em red solid;
+    width: 60%;
+    height: 400px;
+    font-size: 12px;
+    letter-spacing: 3em;
+    word-spacing: 4ex;
+    margin: 3em;
+    text-align: justify;
+    font-family: Verdana;
+    text-indent: 25px;
+}
+
+p::first-letter{
+    font-size: 36px;
+    color: blue;
+    text-decoration: overline;
+}
+
+p::first-line{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
