@@ -1,7 +1,7 @@
 /*Lucas Rosa Barbosa - CPD: 33992*/
 
 ul{
-    list-style: inside url("img/seta.jpg");
+    list-style: inside url("../img/seta.jpg");
     color: red;
     font-family: Verdana;
     font-size: 12px;
@@ -17,5 +17,5 @@ a:hover{
 }
 
 li:hover{
-    list-style-image: url("img/seta2.png");
+    list-style-image: url("../img/seta2.png");
 }
