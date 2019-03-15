@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Questão 05</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Lucas Rosa Barbosa - CPD: 33992">
+        <script src="js/questao05.js"></script>
+    </head>
+    <body>
+        <h1>Cadastrar Usuário</h1>
+        <form method="POST" id="cadastro">
+            <label>Usuário</label>                     
+            <input type="text" name="usuario" id="usuario" required>
+            <br><br>        
+            <label>Senha</label>
+            <input type="password" name="senha" minlength="6" maxlength="10" id="senha" required>
+            <br><br>
+            <label>Confirmação de Senha</label>
+            <input type="password" name="confirmacao" minlength="6" maxlength="10" id="confirmacao" required>
+            <br><br>
+            <button type="button" onclick="verificar()">Cadastrar</button>
+        </form>
+    </body>
+</html>
