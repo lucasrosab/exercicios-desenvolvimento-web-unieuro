@@ -14,12 +14,12 @@
             <label for="nome">Nome</label><br>
             <input type="text" name="nome" id="nome"><br>
             <label for="pessoa">Pessoa</label><br>
-            <input type="radio" name="pessoa" value="Física" id="fisica">Física<br>
-            <input type="radio" name="pessoa" value="Jurídica" id="juridica">Jurídica<br>
+            <input type="radio" name="pessoa" value="Física" id="fisica" onclick="salvar()">Física<br>
+            <input type="radio" name="pessoa" value="Jurídica" id="juridica" onclick="salvar()">Jurídica<br>
             <label for="cpf">CPF</label><br>
-            <input type="text" name="cpf" id="cpf"><br>
+            <input type="text" name="cpf" id="cpf" disabled><br>
             <label for="cnpj">CNPJ</label><br>
-            <input type="text" name="cnpj" id="cnpj"><br>
+            <input type="text" name="cnpj" id="cnpj" disabled><br>
             <label for="dtnasc">Data de Nascimento</label><br>
             <input type="date" name="dtnasc" id="dtnasc"><br>
             <hr>
@@ -27,13 +27,14 @@
             <label for="endereco">Endereço</label><br>
             <input type="text" name="endereco" id="endereco"><br>
             <label for="cep">CEP</label><br>
-            <input type="text" name="cep" id="cep"><br>
+            <input type="text" name="cep" id="cep" pattern="[0-9]+$" required><br>
             <hr>
             <h2>Contato</h2>
             <label for="telefone">Telefone</label><br>
             <input type="text" name="telefone" id="telefone"><br>
-            
-
+            <label for="telefone">Email</label><br>
+            <input type="email" name="email" id="email"><br><br>
+            <button type="submit">Enviar</button>
         </form>
     </body>
 </html>
