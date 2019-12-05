@@ -1,4 +1,4 @@
-# exercicios-desenvolvimento-web-unieuro
+# Exercicios Desenvolvimento Web - Unieuro
 
 Exercícios da disciplina de desenvolvimento web e mobile do Centro Universitário Euro-Americano
 
